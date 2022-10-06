@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+    font-size:32px;
+    text-align:center;
+    display:block;
+}
+.img1, .img2, .img3, .img4{
+    display:none;
+}
+.divs{
+    display:inline-block
+}
+.purple{
+    color: purple;
+    font-size: calc(2rem+0.5vw);
+}
+.red{
+    color: red;
+    font-size: calc(2rem+0.5vw);
+}
+.pink{
+    color: pink;
+    font-size: calc(2rem+0.5vw);
+}
+.yellow{
+    color:yellow;
+    font-size:calc(2rem+0.5vw);
+
+}
+@media only screen and (min-width:600px) {
+  body{
+    background-color:purple;
+    
+
+   
+  }
+  .img1{
+    display:block;
+    right: 25%;
+    position:absolute;
+    width:50%;
+    
+  }
+}  
+  @media only screen and (min-width:768px) {
+    body{
+        background-color: red;
+    
+
+    }
+  .img2{ 
+    display:block;
+    right:25%;
+    position:absolute;
+    width:50%;
+  }
+}
+  @media only screen and (min-width:992px) { 
+        body{
+            background-color: pink;
+ 
+       }
+    .img3{
+        display:block;
+        right:25%;
+        position:absolute;
+        width:50%;
+       }
+}
+
+  
+
+  @media only screen and (min-width:1200px) {
+    body{
+        background-color: yellow;
+    }
+    .img4{
+        display:block;
+        right:25%;
+        position:absolute;
+        width:50%;
+    }
+}
+
